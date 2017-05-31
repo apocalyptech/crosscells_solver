@@ -1,0 +1,55 @@
+9x5
+
+# This is another level which could maybe benefit from some "lazy"
+# constraints to allow us to process by constraint first and then
+# bruteforce after that first pass...
+
+0,0: +3
+1,0: +3
+2,0: *2
+4,0: *1
+6,0: *2
+7,0: +3
+8,0: +3
+
+0,1: +2
+1,1: +1
+2,1: *2
+4,1: +1
+6,1: *2
+7,1: +1
+8,1: +2
+
+0,2: +1
+1,2: +2
+2,2: +2
+4,2: *3
+6,2: +1
+7,2: +2
+8,2: +1
+
+0,4: +3
+1,4: *2
+2,4: +1
+3,4: *2
+4,4: +1
+5,4: *2
+6,4: +1
+7,4: *2
+8,4: +1
+--
+row_0: total_15
+rowrev_0: total_15
+row_1: total_4
+rowrev_1: total_5
+row_2: total_10
+rowrev_2: total_6
+row_4: total_8
+rowrev_4: total_7
+col_0: count_3
+col_1: count_2
+col_4: count_3
+col_6: count_2
+col_7: count_2
+col_8: count_2
+count_8: 0,0 1,0 2,0 0,1 1,1 2,1 0,2 1,2 2,2 0,4 1,4 2,4
